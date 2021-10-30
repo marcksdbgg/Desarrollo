@@ -1,10 +1,15 @@
 from flask import Flask, render_template, request
+from flask.scaffold import _matching_loader_thinks_module_is_package
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
+@app.route("/forms", methods=["POST"])
+def forms():
+    return render_template("forms.html")
 
 @app.route("/cv", methods=["POST"])
 def cv():

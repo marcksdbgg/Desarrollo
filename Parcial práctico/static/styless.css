@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+Login
+--------------------------------------------------------------*/
+:root {
+	/* default palette*/
+	--dark-5-brown: #5995fd;
+	--dark-4-brown: #224353;
+	--cafe: #346e80;
+	--pink-mate: #4da6b4;
+	--piel: #73ebee;
+	/* responsive */
+	/*	mobile*/
+	--mobile-w: 360px;
+	--mobile-h: 640px;
+	/*	tablet*/
+	--tablet-w: 720px;
+	--tablet-h: 1024px;
+	/*	desktop*/
+	/*	idk what to do here*/
+}
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+/* html {
+	font-size: 62.5%;
+} */
+h1 {
+	padding-bottom: 0.6rem;
+	padding-top: 0.4rem;
+	margin: 0;
+}
+h2 {
+	padding-bottom: 0.4rem;
+	padding-top: 0.2rem;
+	margin: 0;
+}
+h3 {
+	padding-bottom: 0.3rem;
+	padding-top: 0.1rem;
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+}
+
+body,
+input {
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.sign-in-form {
+	width: 100%;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0rem 2rem;
+	transition: all 0.2s 0.7s;
+	overflow: hidden;
+}
+.title {
+	font-size: 2.2rem;
+	color: #444;
+	margin-bottom: 10px;
+}
+.input-field {
+	max-width: 380px;
+	width: 100%;
+	background-color: #f0f0f0;
+	margin: 10px 0;
+	height: 55px;
+	border-radius: 55px;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 0 0.4rem;
+	position: relative;
+}
+.input-field i {
+	text-align: center;
+	line-height: 55px;
+	color: #acacac;
+	transition: 0.5s;
+	font-size: 1.1rem;
+}
+.input-field input {
+	background: none;
+	outline: none;
+	border: none;
+	line-height: 1;
+	font-weight: 600;
+	font-size: 1.1rem;
+	color: #333;
+}
+.button {
+	width: 150px;
+	background-color: #2a322f;
+	border: none;
+	outline: none;
+	height: 49px;
+	border-radius: 49px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.button:hover {
+	background-color: #3d4140;
+}
+
+.button.header {
+	margin-left: 20px;
+	width: 110px;
+}
+
+.check-button {
+	font-size: 30px;
+	color: #2a322f;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+.container{
+	background: linear-gradient(#cc8d13, #00ffb1);
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+}
